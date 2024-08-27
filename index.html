@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0' name='viewport' />
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./assets/js/app.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <img src="./assets/images/Logo.png" class="logo">
+            <div>
+                <input placeholder="Ingrese el texto aqui" type="text" name="input_text" id="input_text"></input>
+            </div>
+            <div class="container_restrictions">
+                <img src="./assets/images/bi_exclamation-circle-fill.png">
+                <span>Sólo letras minúsculas y sin acento</span>
+            </div>
+            <div class="container_button">
+                <button id="button_encriptar" class="button"><span>Encriptar</span></button>
+                <button id="button_desencriptar" class="button"><span>Desencriptar</span></button>
+            </div>
+            <div class="container_right">
+                <img src="./assets/images/Muñeco.png" id="image_disappears"></img>
+                <div class="container_right_text">
+                    <textarea id="text1">Ningún mensaje fue encontrado</textarea>
+                    <textarea id="text2">Ingresa el texto que desees encriptar o desencriptar</textarea>
+                </div>
+                <textarea id="result_container_textarea"></textarea>
+            </div>
+            <button id="button_copiar" class="button"><span>Copiar</span></button>
+        </div>
+        <footer class="footer"><span>Desarrollado por Cecilia Sande</span></footer>
+    </body>
+
+</html>
